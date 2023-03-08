@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="sva">
+        <div>Вес товара в кг: <span class="mkg">10</span></div>
+        <div>Длина в м: <span class="l">20</span></div>
+        <div>цена товара за р/кг: <span class="ckg">100</span></div>
+        <div>диаметр мм: <span class="d">30</span></div>
+
+        <div>Стоимость резки: <span class="CR"></span></div>
+    </div>
+
+    <div class="calc">
+        <div>
+            <input type="number" name="" id="num1" placeholder="кол-во шт">
+        </div>
+        <div>
+            <p>Вес кг: <span id="Mt"></span></p>
+        </div>
+        <div>
+            <p>Длина: <span id="Lt"></span></p>
+        </div>
+    </div>
+    <div class="calc_2">
+        <div>
+            <p>Цена за шт: <span id="Cl"></span></p>
+        </div>
+        <div>
+            <p>Цена за кг: <span id="Cm"></span></p>
+            <p>Цена за тн: <span id="Ctn"></span></p>
+        </div>
+    </div>
+    <div class="calc_3">
+        <div>
+            <input type="number" name="" id="TR" placeholder="Резка шт">
+        </div>
+        <div>
+            <p>Стоимость: <span id="Ct"></span></p>
+            <p>Стоимость итого: <span id="Ci"></span></p>
+        </div>
+    </div>
+    
+    <input class="button" type="button" value="расчитать" onclick="addNumbers()">
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

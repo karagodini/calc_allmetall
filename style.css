@@ -1,0 +1,20 @@
+.calc, .calc_2, .calc_3 {
+    display: flex;
+    align-items: center;
+}
+
+.calc div {
+    margin-right: 10px;
+}
+
+.calc_2 div {
+    margin-right: 10px;
+}
+
+.calc_3 div {
+    margin-right: 10px;
+}
+
+.button {
+    margin-top: 10px;
+}
